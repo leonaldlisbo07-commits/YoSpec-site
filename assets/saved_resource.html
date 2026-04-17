@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://a.mobirise.com/ -->
+<html class="is-builder desktop mbr-site-loaded" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="https://a.mobirise.com/app/builder/index.html">--><base href=".">
+    
+
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="./builder.css">
+    <link rel="stylesheet" href="./css2">
+
+    <!-- Insert additional styles / scripts from components -->
+    <link rel="stylesheet" href="./item-wizard.css"><link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./mobirise2.css"><link rel="stylesheet" href="./mobirise-icons.css"><link rel="stylesheet" href="./bootstrap.min.css"><link rel="stylesheet" href="./jarallax.css"><link rel="stylesheet" href="./gdpr-styles.css"><link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./style(1).css"><link rel="stylesheet" href="./vanilla-dataTables.min.css"><link rel="stylesheet" href="./progress.min.css"><link rel="stylesheet" href="./style(2).css"><link rel="stylesheet" href="./style(3).css"><link rel="stylesheet" href="./style(4).css"><link id="insertBefore">
+
+<style name="theme-styles">body {
+  font-family: Jost;
+}
+.display-1 {
+  font-family: 'Jost', sans-serif;
+  font-size: 4.6rem;
+  line-height: 1.1;
+}
+.display-1 > .mbr-iconfont {
+  font-size: 5.75rem;
+}
+.display-2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+.display-2 > .mbr-iconfont {
+  font-size: 3.75rem;
+}
+.display-4 {
+  font-family: 'Jost', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.display-4 > .mbr-iconfont {
+  font-size: 1.375rem;
+}
+.display-5 {
+  font-family: 'Jost', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.display-5 > .mbr-iconfont {
+  font-size: 2.5rem;
+}
+.display-7 {
+  font-family: 'Jost', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.display-7 > .mbr-iconfont {
+  font-size: 1.5rem;
+}
+/* ---- Fluid typography for mobile devices ---- */
+/* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
+/* 100vw - current viewport width */
+/* (48 - 20)  48 == 48rem == 768px, 20 == 20rem == 320px(minimal supported viewport) */
+/* 0.65 - min scale variable, may vary */
+@media (max-width: 992px) {
+  .display-1 {
+    font-size: 3.68rem;
+  }
+}
+@media (max-width: 768px) {
+  .display-1 {
+    font-size: 3.22rem;
+    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-2 {
+    font-size: 2.4rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-4 {
+    font-size: 0.88rem;
+    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-5 {
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-7 {
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+  }
+}
+/* Buttons */
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+}
+.btn-sm {
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+}
+.btn-md {
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+}
+.btn-lg {
+  padding: 1rem 2.6rem;
+  border-radius: 4px;
+}
+.bg-primary {
+  background-color: #6592e6 !important;
+}
+.bg-success {
+  background-color: #40b0bf !important;
+}
+.bg-info {
+  background-color: #47b5ed !important;
+}
+.bg-warning {
+  background-color: #ffe161 !important;
+}
+.bg-danger {
+  background-color: #ff9966 !important;
+}
+.btn-primary,
+.btn-primary:active {
+  background-color: #6592e6 !important;
+  border-color: #6592e6 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary.active {
+  color: #ffffff !important;
+  background-color: #2260d2 !important;
+  border-color: #2260d2 !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #ffffff !important;
+  background-color: #2260d2 !important;
+  border-color: #2260d2 !important;
+}
+.btn-secondary,
+.btn-secondary:active {
+  background-color: #ff6666 !important;
+  border-color: #ff6666 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary.active {
+  color: #ffffff !important;
+  background-color: #ff0f0f !important;
+  border-color: #ff0f0f !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+  color: #ffffff !important;
+  background-color: #ff0f0f !important;
+  border-color: #ff0f0f !important;
+}
+.btn-info,
+.btn-info:active {
+  background-color: #47b5ed !important;
+  border-color: #47b5ed !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info.active {
+  color: #ffffff !important;
+  background-color: #148cca !important;
+  border-color: #148cca !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-info.disabled,
+.btn-info:disabled {
+  color: #ffffff !important;
+  background-color: #148cca !important;
+  border-color: #148cca !important;
+}
+.btn-success,
+.btn-success:active {
+  background-color: #40b0bf !important;
+  border-color: #40b0bf !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success.active {
+  color: #ffffff !important;
+  background-color: #2a747e !important;
+  border-color: #2a747e !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-success.disabled,
+.btn-success:disabled {
+  color: #ffffff !important;
+  background-color: #2a747e !important;
+  border-color: #2a747e !important;
+}
+.btn-warning,
+.btn-warning:active {
+  background-color: #ffe161 !important;
+  border-color: #ffe161 !important;
+  color: #614f00 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning.active {
+  color: #0a0800 !important;
+  background-color: #ffd10a !important;
+  border-color: #ffd10a !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-warning.disabled,
+.btn-warning:disabled {
+  color: #614f00 !important;
+  background-color: #ffd10a !important;
+  border-color: #ffd10a !important;
+}
+.btn-danger,
+.btn-danger:active {
+  background-color: #ff9966 !important;
+  border-color: #ff9966 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger.active {
+  color: #ffffff !important;
+  background-color: #ff5f0f !important;
+  border-color: #ff5f0f !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-danger.disabled,
+.btn-danger:disabled {
+  color: #ffffff !important;
+  background-color: #ff5f0f !important;
+  border-color: #ff5f0f !important;
+}
+.btn-white,
+.btn-white:active {
+  background-color: #fafafa !important;
+  border-color: #fafafa !important;
+  color: #7a7a7a !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white.focus,
+.btn-white.active {
+  color: #4f4f4f !important;
+  background-color: #cfcfcf !important;
+  border-color: #cfcfcf !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-white.disabled,
+.btn-white:disabled {
+  color: #7a7a7a !important;
+  background-color: #cfcfcf !important;
+  border-color: #cfcfcf !important;
+}
+.btn-black,
+.btn-black:active {
+  background-color: #232323 !important;
+  border-color: #232323 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-black:hover,
+.btn-black:focus,
+.btn-black.focus,
+.btn-black.active {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-black.disabled,
+.btn-black:disabled {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.btn-primary-outline,
+.btn-primary-outline:active {
+  background-color: transparent !important;
+  border-color: transparent;
+  color: #6592e6;
+}
+.btn-primary-outline:hover,
+.btn-primary-outline:focus,
+.btn-primary-outline.focus,
+.btn-primary-outline.active {
+  color: #2260d2 !important;
+  background-color: transparent!important;
+  border-color: transparent!important;
+  box-shadow: none!important;
+}
+.btn-primary-outline.disabled,
+.btn-primary-outline:disabled {
+  color: #ffffff !important;
+  background-color: #6592e6 !important;
+  border-color: #6592e6 !important;
+}
+.btn-secondary-outline,
+.btn-secondary-outline:active {
+  background-color: transparent !important;
+  border-color: transparent;
+  color: #ff6666;
+}
+.btn-secondary-outline:hover,
+.btn-secondary-outline:focus,
+.btn-secondary-outline.focus,
+.btn-secondary-outline.active {
+  color: #ff0f0f !important;
+  background-color: transparent!important;
+  border-color: transparent!important;
+  box-shadow: none!important;
+}
+.btn-secondary-outline.disabled,
+.btn-secondary-outline:disabled {
+  color: #ffffff !important;
+  background-color: #ff6666 !important;
+  border-color: #ff6666 !important;
+}
+.btn-info-outline,
+.btn-info-outline:active {
+  background-color: transparent !important;
+  border-color: transparent;
+  color: #47b5ed;
+}
+.btn-info-outline:hover,
+.btn-info-outline:focus,
+.btn-info-outline.focus,
+.btn-info-outline.active {
+  color: #148cca !important;
+  background-color: transparent!important;
+  border-color: transparent!important;
+  box-shadow: none!important;
+}
+.btn-info-outline.disabled,
+.btn-info-outline:disabled {
+  color: #ffffff !important;
+  background-color: #47b5ed !important;
+  border-color: #47b5ed !important;
+}
+.btn-success-outline,
+.btn-success-outline:active {
+  background-color: transparent !important;
+  border-color: transparent;
+  color: #40b0bf;
+}
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline.focus,
+.btn-success-outline.active {
+  color: #2a747e !important;
+  background-color: transparent!important;
+  border-color: transparent!important;
+  box-shadow: none!important;
+}
+.btn-success-outline.disabled,
+.btn-success-outline:disabled {
+  color: #ffffff !important;
+  background-color: #40b0bf !important;
+  border-color: #40b0bf !important;
+}
+.btn-warning-outline,
+.btn-warning-outline:active {
+  background-color: transparent !important;
+  border-color: transparent;
+  color: #ffe161;
+}
+.btn-warning-outline:hover,
+.btn-warning-outline:focus,
+.btn-warning-outline.focus,
+.btn-warning-outline.active {
+  color: #ffd10a !important;
+  background-color: transparent!important;
+  border-color: transparent!important;
+  box-shadow: none!important;
+}
+.btn-warning-outline.disabled,
+.btn-warning-outline:disabled {
+  color: #614f00 !important;
+  background-color: #ffe161 !important;
+  border-color: #ffe161 !important;
+}
+.btn-danger-outline,
+.btn-danger-outline:active {
+  background-color: transparent !important;
+  border-color: transparent;
+  color: #ff9966;
+}
+.btn-danger-outline:hover,
+.btn-danger-outline:focus,
+.btn-danger-outline.focus,
+.btn-danger-outline.active {
+  color: #ff5f0f !important;
+  background-color: transparent!important;
+  border-color: transparent!important;
+  box-shadow: none!important;
+}
+.btn-danger-outline.disabled,
+.btn-danger-outline:disabled {
+  color: #ffffff !important;
+  background-color: #ff9966 !important;
+  border-color: #ff9966 !important;
+}
+.btn-black-outline,
+.btn-black-outline:active {
+  background-color: transparent !important;
+  border-color: transparent;
+  color: #232323;
+}
+.btn-black-outline:hover,
+.btn-black-outline:focus,
+.btn-black-outline.focus,
+.btn-black-outline.active {
+  color: #000000 !important;
+  background-color: transparent!important;
+  border-color: transparent!important;
+  box-shadow: none!important;
+}
+.btn-black-outline.disabled,
+.btn-black-outline:disabled {
+  color: #ffffff !important;
+  background-color: #232323 !important;
+  border-color: #232323 !important;
+}
+.btn-white-outline,
+.btn-white-outline:active {
+  background-color: transparent !important;
+  border-color: transparent;
+  color: #fafafa;
+}
+.btn-white-outline:hover,
+.btn-white-outline:focus,
+.btn-white-outline.focus,
+.btn-white-outline.active {
+  color: #cfcfcf !important;
+  background-color: transparent!important;
+  border-color: transparent!important;
+  box-shadow: none!important;
+}
+.btn-white-outline.disabled,
+.btn-white-outline:disabled {
+  color: #7a7a7a !important;
+  background-color: #fafafa !important;
+  border-color: #fafafa !important;
+}
+.text-primary {
+  color: #6592e6 !important;
+}
+.text-secondary {
+  color: #ff6666 !important;
+}
+.text-success {
+  color: #40b0bf !important;
+}
+.text-info {
+  color: #47b5ed !important;
+}
+.text-warning {
+  color: #ffe161 !important;
+}
+.text-danger {
+  color: #ff9966 !important;
+}
+.text-white {
+  color: #fafafa !important;
+}
+.text-black {
+  color: #232323 !important;
+}
+a.text-primary:hover,
+a.text-primary:focus,
+a.text-primary.active {
+  color: #205ac5 !important;
+}
+a.text-secondary:hover,
+a.text-secondary:focus,
+a.text-secondary.active {
+  color: #ff0000 !important;
+}
+a.text-success:hover,
+a.text-success:focus,
+a.text-success.active {
+  color: #266a73 !important;
+}
+a.text-info:hover,
+a.text-info:focus,
+a.text-info.active {
+  color: #1283bc !important;
+}
+a.text-warning:hover,
+a.text-warning:focus,
+a.text-warning.active {
+  color: #facb00 !important;
+}
+a.text-danger:hover,
+a.text-danger:focus,
+a.text-danger.active {
+  color: #ff5500 !important;
+}
+a.text-white:hover,
+a.text-white:focus,
+a.text-white.active {
+  color: #c7c7c7 !important;
+}
+a.text-black:hover,
+a.text-black:focus,
+a.text-black.active {
+  color: #000000 !important;
+}
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+  position: relative;
+  background-image: transparent;
+  background-size: 10000px 2px;
+  background-repeat: no-repeat;
+  background-position: 0px 1.2em;
+  background-position: -10000px 1.2em;
+}
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
+  transition: background-position 2s ease-in-out;
+  background-image: linear-gradient(currentColor 50%, currentColor 50%);
+  background-position: 0px 1.2em;
+}
+.nav-tabs .nav-link.active {
+  color: #6592e6;
+}
+.nav-tabs .nav-link:not(.active) {
+  color: #232323;
+}
+.alert-success {
+  background-color: #70c770;
+}
+.alert-info {
+  background-color: #47b5ed;
+}
+.alert-warning {
+  background-color: #ffe161;
+}
+.alert-danger {
+  background-color: #ff9966;
+}
+.mbr-gallery-filter li.active .btn {
+  background-color: #6592e6;
+  border-color: #6592e6;
+  color: #ffffff;
+}
+.mbr-gallery-filter li.active .btn:focus {
+  box-shadow: none;
+}
+a,
+a:hover {
+  color: #6592e6;
+}
+.mbr-plan-header.bg-primary .mbr-plan-subtitle,
+.mbr-plan-header.bg-primary .mbr-plan-price-desc {
+  color: #ffffff;
+}
+.mbr-plan-header.bg-success .mbr-plan-subtitle,
+.mbr-plan-header.bg-success .mbr-plan-price-desc {
+  color: #a0d8df;
+}
+.mbr-plan-header.bg-info .mbr-plan-subtitle,
+.mbr-plan-header.bg-info .mbr-plan-price-desc {
+  color: #ffffff;
+}
+.mbr-plan-header.bg-warning .mbr-plan-subtitle,
+.mbr-plan-header.bg-warning .mbr-plan-price-desc {
+  color: #ffffff;
+}
+.mbr-plan-header.bg-danger .mbr-plan-subtitle,
+.mbr-plan-header.bg-danger .mbr-plan-price-desc {
+  color: #ffffff;
+}
+/* Scroll to top button*/
+.scrollToTop_wraper {
+  display: none;
+}
+.form-control {
+  font-family: 'Jost', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.form-control > .mbr-iconfont {
+  font-size: 1.375rem;
+}
+.form-control:hover,
+.form-control:focus {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
+  border-color: #6592e6 !important;
+}
+.form-control:-webkit-input-placeholder {
+  font-family: 'Jost', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.form-control:-webkit-input-placeholder > .mbr-iconfont {
+  font-size: 1.375rem;
+}
+blockquote {
+  border-color: #6592e6;
+}
+/* Forms */
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #6592e6;
+  color: #ffffff;
+}
+.jq-number__spin {
+  transition: 0.25s ease;
+}
+.jq-number__spin:hover {
+  border-color: #6592e6;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: #353535;
+  border-bottom-color: #353535;
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
+  border-top-color: #6592e6;
+  border-bottom-color: #6592e6;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #6592e6 !important;
+  box-shadow: none !important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #000000 !important;
+  background: #ff6666 !important;
+  box-shadow: none !important;
+}
+.lazy-bg {
+  background-image: none !important;
+}
+.lazy-placeholder:not(section),
+.lazy-none {
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;
+  width: 100%;
+  height: auto;
+}
+iframe.lazy-placeholder,
+.lazy-placeholder:after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: transparent no-repeat center;
+  background-size: contain;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='32' height='32' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' stroke='%236592e6' %3e%3cg fill='none' fill-rule='evenodd'%3e%3cg transform='translate(16 16)' stroke-width='2'%3e%3ccircle stroke-opacity='.5' cx='16' cy='16' r='16'/%3e%3cpath d='M32 16c0-9.94-8.06-16-16-16'%3e%3canimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='1s' repeatCount='indefinite'/%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+}
+section.lazy-placeholder:after {
+  opacity: 0.5;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  transition: color 0.6s;
+}
+*:focus-visible {
+  outline: red solid 2px !important;
+  outline-offset: 2px !important;
+  transition: outline 0.2s ease-in-out;
+}
+</style><script src="./core-summernote-dropdown-menu-bs-5.js.download"></script><script src="./core-accordion-bootstrap.js.download"></script><script src="./core-toggle-bootstrap.js.download"></script><script src="./core-after-navbar.js.download"></script><script src="./core-auto-paddings.js.download"></script><script src="./core-menu-styles.js.download"></script><script src="./core-gallery.js.download"></script><script src="./core-testimonials.js.download"></script><script src="./core-slider-mobirise.js.download"></script><script src="./core-dropdown.js.download"></script><script src="./bootstrap.bundle.min.js.download"></script><script src="./typed.js.download"></script><script src="./jarallax.js.download"></script><script src="./navbar-dropdown.js.download"></script><script src="./player.js.download"></script><script src="./countdown.js.download"></script><script src="./social-likes.js.download"></script><script src="./smooth-scroll.js.download"></script><script src="./mbr-clients-slider.js.download"></script><script src="./mbr-tabs.js.download"></script><script src="./mbr-popup-btns.js.download"></script><script src="./mbr-switch-arrow.js.download"></script><script src="./script.js.download"></script><script src="./masonry.pkgd.min.js.download"></script><script src="./imagesloaded.pkgd.min.js.download"></script><script src="./vimeo_player.js.download"></script><script src="./vanilla-dataTables.min.js.download"></script><script src="./index(1).js.download"></script><script src="./as-pie-progress.min.js.download"></script><script src="./embla.min.js.download"></script><script src="./script(1).js.download"></script><script src="./viewportchecker.js.download"></script><script src="./script(2).js.download"></script><script src="./formoid.min.js.download"></script><script src="./player.min.js.download"></script><script src="./script(3).js.download"></script><script src="./script(4).js.download"></script><script src="./script(5).js.download"></script></head>
+
+<body class="desktop dark-mode rounded-canvas" style="overflow-x: hidden;">
+    <!-- Strange hack for hardware acceleration (bug with links dialogs) -->
+    <div style="-webkit-transform: translate3d(0,0,0);"></div>
+
+    <div class="template clearfix">
+        <div class="ui-sortable"><div class="app-component" data-app-component-id="0" data-lazyload-stage="complete"><div class="app-component-menu"><div class="app-component-edit"><span class="mbr-btn sortable mbr-icon-arrows-vertical tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-clone mbr-icon-copy tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-params mbr-icon-cog tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-remove mbr-icon-trash tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-show-more mbr-icon-horizontal-ellipsis tooltipstered" data-tooltipster="bottom" style="display: none;"></span></div></div><div class="app-component-content"><section data-bs-version="5.1" class="header5 cid-vgSCDLL6Ia mbr-fullscreen" mbr-data-bg-video="this | fakeFilter uname__1 _params.bg.type _params.bg.value.url | toNULL" mbr-class2="this | fakeFilter uname__2 _params.fullScreen _params.bg.parallax" mbr-id="_anchor" id="header5-0" data-rv-view="0">
+
+    
+
+    <div class="mbr-fallback-image disabled" mbr-if="this | fakeFilter uname__25 _params.bg.type" data-app-remove-it="true" style="display: none;"></div>
+    <div class="mbr-overlay" mbr-if="this | fakeFilter uname__26 _params.overlay _params.bg.type" mbr-opacity="this | fakeFilter uname__27 _params.overlayOpacity | toNULL" mbr-bg-color="this | fakeFilter uname__28 _params.overlayColor | toNULL" data-app-remove-it="true" style="display: none; opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
+
+    <div class="container" mbr-class2="this | fakeFilter uname__29 _params.fullWidth _params.fullWidth">
+        <div mbr-class2="this | fakeFilter uname__30 _params.contentAlign" class="row">
+            <div mbr-class2="this | fakeFilter uname__31 _params.textWidth" class="col-12 col-lg-7">
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1" data-app-selector=".mbr-section-title" mbr-if="this | fakeFilter uname__34 _params.showTitle" mbr-class-var="uname__32" mbr-on-change-theme-style="uname__33" data-app-edit="content" mbr-static-html="uname__35" mbr-content-edit="uname__35" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__36" data-class-var="display-1"><p><b>YoSpec!</b></p></h1>
+                <h2 class="mbr-section-subtitle mbr-fonts-style mbr-white mb-3 display-2" data-app-selector=".mbr-section-subtitle" mbr-if="this | fakeFilter uname__39 _params.showSubitle" mbr-class-var="uname__37" mbr-on-change-theme-style="uname__38" data-app-edit="content" mbr-static-html="uname__40" mbr-content-edit="uname__40" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__41" data-app-remove-it="true" data-class-var="display-2" style="display: none;">Header Subtitle</h2>
+                <p class="mbr-text mbr-fonts-style mbr-white display-5" mbr-if="this | fakeFilter uname__44 _params.showText" data-app-selector=".mbr-text, .mbr-section-btn" mbr-class-var="uname__42" mbr-on-change-theme-style="uname__43" data-app-edit="content" mbr-static-html="uname__45" mbr-content-edit="uname__45" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__46" data-class-var="display-5"><b>Your One-Tap Consultant</b></p>
+                <div mbr-buttons="uname__49" class="mbr-section-btn mt-3" mbr-if="this | fakeFilter uname__52 _params.showButtons" data-app-edit="buttons" mbr-static-html="uname__47" mbr-content-edit="uname__47" mbr-on-change-component-node="uname__48" mbr-class-var="uname__50" mbr-on-change-theme-style="uname__51" data-class-var="display-7"><a class="btn btn-warning display-7" href="https://a.mobirise.com/app/builder/index.html#features13-2" data-app-placeholder="Type Text" data-app-btn="true">Get Started</a> <a class="btn btn-black-outline display-7" href="https://a.mobirise.com/app/builder/page2.html" data-app-placeholder="Type Text" data-app-btn="true">About Us</a></div>
+            </div>
+        </div>
+    </div>
+</section></div><style>.cid-vgSCDLL6Ia {
+  background-image: url("https://r.mobirisesite.com/2571945/assets/images/ga51cb446c9791cb122470d61fbd7-h_mo0avr3s.jpg");
+}
+.cid-vgSCDLL6Ia .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vgSCDLL6Ia .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vgSCDLL6Ia .mbr-section-title {
+  text-align: justify;
+}
+</style></div><div class="app-component" data-app-component-id="1" data-lazyload-stage="complete"><div class="app-component-menu"><div class="app-component-edit"><span class="mbr-btn sortable mbr-icon-arrows-vertical tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-clone mbr-icon-copy tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-params mbr-icon-cog tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-remove mbr-icon-trash tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-show-more mbr-icon-horizontal-ellipsis tooltipstered" data-tooltipster="bottom" style="display: none;"></span></div></div><div class="app-component-content"><section data-bs-version="5.1" class="features13 cid-vgSLN9xlIW" mbr-data-bg-video="this | fakeFilter uname__1 _params.bg.type _params.bg.value.url | toNULL" mbr-class2="this | fakeFilter uname__2 _params.bg.parallax" mbr-id="_anchor" id="features13-2" data-rv-view="3">
+
+    
+
+    <div class="mbr-fallback-image disabled" mbr-if="this | fakeFilter uname__23 _params.bg.type" data-app-remove-it="true" style="display: none;"></div>
+    <div class="mbr-overlay" mbr-if="this | fakeFilter uname__24 _params.overlay _params.bg.type" mbr-style2="this | fakeFilter uname__25 _params.overlayOpacity _params.overlayColor" style="opacity: 0.8; background-color: rgb(255, 255, 255);">
+    </div>
+    <div mbr-class2="this | fakeFilter uname__26 _params.fullWidth _params.fullWidth" class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6" mbr-if="this | fakeFilter uname__27 _params.showTitle _params.showText _params.showButton">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <h1 class="card-title mbr-fonts-style mb-4 display-1" mbr-if="this | fakeFilter uname__30 _params.showTitle" data-app-selector=".card-title, .card-box" mbr-class-var="uname__28" mbr-on-change-theme-style="uname__29" data-app-edit="content" mbr-static-html="uname__31" mbr-content-edit="uname__31" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__32" data-class-var="display-1">
+                            <b>How it Works</b></h1>
+                        <p class="mbr-text mbr-fonts-style mb-4 display-7" mbr-if="this | fakeFilter uname__35 _params.showText" data-app-selector=".mbr-text, .mbr-section-btn" mbr-class-var="uname__33" mbr-on-change-theme-style="uname__34" data-app-edit="content" mbr-static-html="uname__36" mbr-content-edit="uname__36" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__37" data-app-remove-it="true" data-class-var="display-7" style="display: none;"></p>
+                        <div mbr-buttons="uname__40" class="mbr-section-btn" data-toolbar="-mbrBtnMove" mbr-if="this | fakeFilter uname__43 _params.showButton" data-app-edit="buttons" mbr-static-html="uname__38" mbr-content-edit="uname__38" mbr-on-change-component-node="uname__39" mbr-class-var="uname__41" mbr-on-change-theme-style="uname__42" data-class-var="display-4"><a class="btn btn-primary display-4" href="https://a.mobirise.com/app/builder/index.html#features4-3" data-app-placeholder="Type Text" data-app-btn="true">View Services</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="item features-without-image">
+                    <div class="item-wrapper mbr-flex">
+                        <div class="icon-box">
+                            <span class="mbr-iconfont mobi-mbri-responsive mobi-mbri" mbr-media="uname__44" mbr-media-simple="true" mbr-on-click="uname__45" media-simple="true"></span>
+                        </div>
+                        <div class="text-box">
+                            <h4 class="icon-title mbr-black mbr-fonts-style display-7" data-app-selector=".icon-title" mbr-class-var="uname__46" mbr-on-change-theme-style="uname__47" data-app-edit="content" mbr-static-html="uname__48" mbr-content-edit="uname__48" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__49" data-class-var="display-7">
+                                <b>Tell Us Your Needs</b></h4>
+                            <h5 class="icon-text mbr-black mbr-fonts-style display-4" data-app-selector=".icon-text" mbr-class-var="uname__50" mbr-on-change-theme-style="uname__51" data-app-edit="content" mbr-static-html="uname__52" mbr-content-edit="uname__52" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__53" data-class-var="display-4">Sharing your budget and purpose (school, work, gaming)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-without-image">
+                    <div class="item-wrapper mbr-flex">
+                        <div class="icon-box">
+                            <span class="mbr-iconfont mobi-mbri-like mobi-mbri" mbr-media="uname__54" mbr-media-simple="true" mbr-on-click="uname__55" media-simple="true"></span>
+                        </div>
+                        <div class="text-box">
+                            <h4 class="icon-title mbr-black mbr-fonts-style display-7" data-app-selector=".icon-title" mbr-class-var="uname__56" mbr-on-change-theme-style="uname__57" data-app-edit="content" mbr-static-html="uname__58" mbr-content-edit="uname__58" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__59" data-class-var="display-7"><b>Get Expert Recommendations</b></h4>
+                            <h5 class="icon-text mbr-black mbr-fonts-style display-4" data-app-selector=".icon-text" mbr-class-var="uname__60" mbr-on-change-theme-style="uname__61" data-app-edit="content" mbr-static-html="uname__62" mbr-content-edit="uname__62" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__63" data-class-var="display-4">We analyze specs and suggest the best options.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-without-image">
+                    <div class="item-wrapper mbr-flex">
+                        <div class="icon-box">
+                            <span class="mbr-iconfont mobi-mbri-user-2 mobi-mbri" mbr-media="uname__64" mbr-media-simple="true" mbr-on-click="uname__65" media-simple="true"></span>
+                        </div>
+                        <div class="text-box">
+                            <h4 class="icon-title mbr-black mbr-fonts-style display-7" data-app-selector=".icon-title" mbr-class-var="uname__66" mbr-on-change-theme-style="uname__67" data-app-edit="content" mbr-static-html="uname__68" mbr-content-edit="uname__68" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__69" data-class-var="display-7"><b>Decide with Confidence</b></h4>
+                            <h5 class="icon-text mbr-black mbr-fonts-style display-4" data-app-selector=".icon-text" mbr-class-var="uname__70" mbr-on-change-theme-style="uname__71" data-app-edit="content" mbr-static-html="uname__72" mbr-content-edit="uname__72" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__73" data-class-var="display-4">Buy yourself or let us assist you.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section></div><style>.cid-vgSLN9xlIW {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("https://a.mobirise.com/app/themes/mobirise5/components/_images/background1.jpg");
+}
+.cid-vgSLN9xlIW .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vgSLN9xlIW .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vgSLN9xlIW .item-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.cid-vgSLN9xlIW .icon-box {
+  background: #6592e6;
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-vgSLN9xlIW .mbr-iconfont {
+  font-size: 2rem;
+  color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-vgSLN9xlIW .card {
+    margin-bottom: 2rem;
+  }
+  .cid-vgSLN9xlIW .card-wrapper {
+    margin-bottom: 2rem;
+  }
+  .cid-vgSLN9xlIW .item-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+</style></div><div class="app-component" data-app-component-id="2" data-lazyload-stage="complete"><div class="app-component-menu"><div class="app-component-edit"><span class="mbr-btn sortable mbr-icon-arrows-vertical tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-clone mbr-icon-copy tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-params mbr-icon-cog tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-remove mbr-icon-trash tooltipstered" data-tooltipster="bottom"></span><span class="mbr-btn component-show-more mbr-icon-horizontal-ellipsis tooltipstered" data-tooltipster="bottom" style="display: none;"></span></div></div><div class="app-component-content"><section data-bs-version="5.1" class="features4 cid-vgSN5YewXV" mbr-id="_anchor" id="features4-3" data-rv-view="6">
+    
+    <div class="mbr-overlay" mbr-if="this | fakeFilter uname__16 _params.overlay _params.bg.type"></div>
+    <div mbr-class2="this | fakeFilter uname__17 _params.fullWidth _params.fullWidth" class="container">
+        <div class="mbr-section-head" mbr-if="this | fakeFilter uname__18 _params.showTitle _params.showSubtitle">
+            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2" mbr-if="this | fakeFilter uname__21 _params.showTitle" data-app-selector=".mbr-section-title" mbr-class-var="uname__19" mbr-on-change-theme-style="uname__20" data-app-edit="content" mbr-static-html="uname__22" mbr-content-edit="uname__22" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__23" data-class-var="display-2">
+                <b>Services</b></h4>
+            <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5" mbr-if="this | fakeFilter uname__26 _params.showSubtitle" data-app-selector=".mbr-section-subtitle" mbr-class-var="uname__24" mbr-on-change-theme-style="uname__25" data-app-edit="content" mbr-static-html="uname__27" mbr-content-edit="uname__27" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__28" data-app-remove-it="true" data-class-var="display-5" style="display: none;"></h5>
+        </div>
+        <div class="row mt-4">
+            <div mbr-class2="this | fakeFilter uname__29 _params.cardsWidth" class="item features-image col-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img alt="Mobirise Website Builder" title="" mbr-media="uname__30" mbr-media-simple="true" mbr-on-click="uname__31" media-simple="true" src="./g3858b97c2cffb0ce0817d7e9d241-h_mo0crb47.jpg">
+                    </div>
+                    <div class="item-content" mbr-if="this | fakeFilter uname__32 _params.showCardTitle _params.showCardSubtitle _params.showText _params.showButtons">
+                        <h5 class="item-title mbr-fonts-style display-5" data-app-selector=".item-title" mbr-if="this | fakeFilter uname__35 _params.showCardTitle" mbr-class-var="uname__33" mbr-on-change-theme-style="uname__34" data-app-edit="content" mbr-static-html="uname__36" mbr-content-edit="uname__36" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__37" data-class-var="display-5"><b>Basic Consultation</b></h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-7" data-app-selector=".item-subtitle" mbr-if="this | fakeFilter uname__40 _params.showCardSubtitle" mbr-class-var="uname__38" mbr-on-change-theme-style="uname__39" data-app-edit="content" mbr-static-html="uname__41" mbr-content-edit="uname__41" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__42" data-class-var="display-7">₱300 - ₱500&nbsp;</h6>
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7" mbr-if="this | fakeFilter uname__43 _params.showText" data-app-selector=".mbr-text, .mbr-section-btn" mbr-class-var="uname__44" mbr-on-change-theme-style="uname__45" data-app-edit="content" mbr-static-html="uname__46" mbr-content-edit="uname__46" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__47" data-class-var="display-7">Simple Recommendations for anyone. We evaluate your budget and intended usage, then provide simplified explanations of recommended specifications along with <br>2-3 suitable device options.</p>
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2" mbr-if="this | fakeFilter uname__48 _params.showButtons" data-toolbar="-mbrBtnMove,-mbrBtnAdd" mbr-buttons="uname__51" data-app-edit="buttons" mbr-static-html="uname__49" mbr-content-edit="uname__49" mbr-on-change-component-node="uname__50" mbr-class-var="uname__52" mbr-on-change-theme-style="uname__53" data-class-var="display-7"><a href="https://a.mobirise.com/app/builder/page3.html" class="btn item-btn btn-black display-7" target="_blank" data-app-placeholder="Type Text" data-app-btn="true">Book Now &gt;</a></div>
+                </div>
+            </div>
+            <div mbr-class2="this | fakeFilter uname__54 _params.cardsWidth" class="item features-image col-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img alt="Mobirise Website Builder" title="" mbr-media="uname__55" mbr-media-simple="true" mbr-on-click="uname__56" media-simple="true" src="./gc831360c8413fe61ac119b11af1b-h_mo0csvpy.jpg">
+                    </div>
+                    <div class="item-content" mbr-if="this | fakeFilter uname__57 _params.showCardTitle _params.showCardSubtitle _params.showText _params.showButtons">
+                        <h5 class="item-title mbr-fonts-style display-5" data-app-selector=".item-title" mbr-if="this | fakeFilter uname__60 _params.showCardTitle" mbr-class-var="uname__58" mbr-on-change-theme-style="uname__59" data-app-edit="content" mbr-static-html="uname__61" mbr-content-edit="uname__61" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__62" data-class-var="display-5"><b>Assisted Purchase</b></h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-7" data-app-selector=".item-subtitle" mbr-if="this | fakeFilter uname__65 _params.showCardSubtitle" mbr-class-var="uname__63" mbr-on-change-theme-style="uname__64" data-app-edit="content" mbr-static-html="uname__66" mbr-content-edit="uname__66" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__67" data-class-var="display-7">
+                            ₱2,000 - ₱3,500&nbsp;</h6>
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7" mbr-if="this | fakeFilter uname__68 _params.showText" data-app-selector=".mbr-text, .mbr-section-btn" mbr-class-var="uname__69" mbr-on-change-theme-style="uname__70" data-app-edit="content" mbr-static-html="uname__71" mbr-content-edit="uname__71" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__72" data-class-var="display-7">We buy for you with full documentation.<br>We physically visit the store, verift specifications, confirming pricing, and document the entire purchase through video and receipt confirmation.</p>
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2" mbr-if="this | fakeFilter uname__73 _params.showButtons" data-toolbar="-mbrBtnMove,-mbrBtnAdd" mbr-buttons="uname__76" data-app-edit="buttons" mbr-static-html="uname__74" mbr-content-edit="uname__74" mbr-on-change-component-node="uname__75" mbr-class-var="uname__77" mbr-on-change-theme-style="uname__78" data-class-var="display-7"><a href="https://a.mobirise.com/app/builder/page3.html" class="btn item-btn btn-black display-7" target="_blank" data-app-placeholder="Type Text" data-app-btn="true">Book Now &gt;</a></div>
+                </div>
+            </div>
+            <div mbr-class2="this | fakeFilter uname__79 _params.cardsWidth" class="item features-image col-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img alt="Mobirise Website Builder" title="" mbr-media="uname__80" mbr-media-simple="true" mbr-on-click="uname__81" media-simple="true" src="./gdb6c1db9adcc9909a36d234a4126-h_mo0ctovi.jpg">
+                    </div>
+                    <div class="item-content" mbr-if="this | fakeFilter uname__82 _params.showCardTitle _params.showCardSubtitle _params.showText _params.showButtons">
+                        <h5 class="item-title mbr-fonts-style display-5" data-app-selector=".item-title" mbr-if="this | fakeFilter uname__85 _params.showCardTitle" mbr-class-var="uname__83" mbr-on-change-theme-style="uname__84" data-app-edit="content" mbr-static-html="uname__86" mbr-content-edit="uname__86" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__87" data-class-var="display-5"><b>Home Setup</b></h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-7" data-app-selector=".item-subtitle" mbr-if="this | fakeFilter uname__90 _params.showCardSubtitle" mbr-class-var="uname__88" mbr-on-change-theme-style="uname__89" data-app-edit="content" mbr-static-html="uname__91" mbr-content-edit="uname__91" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__92" data-class-var="display-7">Custom Rate</h6>
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7" mbr-if="this | fakeFilter uname__93 _params.showText" data-app-selector=".mbr-text, .mbr-section-btn" mbr-class-var="uname__94" mbr-on-change-theme-style="uname__95" data-app-edit="content" mbr-static-html="uname__96" mbr-content-edit="uname__96" data-app-placeholder="Type Text" mbr-on-change-component-node="uname__97" data-class-var="display-7">We set up your device at your place. For clients who value convenience, transparency. Real-time updates are provided to ensure transparency and accountability.<br></p>
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2" mbr-if="this | fakeFilter uname__98 _params.showButtons" data-toolbar="-mbrBtnMove,-mbrBtnAdd" mbr-buttons="uname__101" data-app-edit="buttons" mbr-static-html="uname__99" mbr-content-edit="uname__99" mbr-on-change-component-node="uname__100" mbr-class-var="uname__102" mbr-on-change-theme-style="uname__103" data-class-var="display-7"><a href="https://a.mobirise.com/app/builder/page3.html" class="btn item-btn btn-black display-7" data-app-placeholder="Type Text" target="_blank" data-app-btn="true">Book Now
+                            &gt;</a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section></div><style>.cid-vgSN5YewXV {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("https://a.mobirise.com/app/themes/mobirise5/components/_images/background3.jpg");
+}
+.cid-vgSN5YewXV .mbr-overlay {
+  background: #fff0b0;
+  opacity: 0.6;
+}
+.cid-vgSN5YewXV img,
+.cid-vgSN5YewXV .item-img {
+  width: 100%;
+  height: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.cid-vgSN5YewXV .item:focus,
+.cid-vgSN5YewXV span:focus {
+  outline: none;
+}
+.cid-vgSN5YewXV .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.cid-vgSN5YewXV .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-vgSN5YewXV .item-wrapper .item-content {
+    padding: 2rem 2rem 0;
+  }
+  .cid-vgSN5YewXV .item-wrapper .item-footer {
+    padding: 0 2rem 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-vgSN5YewXV .item-wrapper .item-content {
+    padding: 1rem 1rem 0;
+  }
+  .cid-vgSN5YewXV .item-wrapper .item-footer {
+    padding: 0 1rem 1rem;
+  }
+}
+.cid-vgSN5YewXV .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-vgSN5YewXV .mbr-section-title {
+  color: #232323;
+}
+.cid-vgSN5YewXV .mbr-text,
+.cid-vgSN5YewXV .mbr-section-btn {
+  text-align: left;
+}
+.cid-vgSN5YewXV .item-title {
+  text-align: left;
+}
+.cid-vgSN5YewXV .item-subtitle {
+  text-align: left;
+  color: #bbbbbb;
+}
+</style></div></div>
+    </div>
+    <!-- jQuery -->
+    <script src="./jquery.min.js.download" id="JS-plugin-jQuery"></script>
+    <script src="./jquery-ui.min.js.download"></script>
+    <script src="./jquery.ui.touch-punch.min.js.download"></script>
+
+    <script src="./sightglass.js.download"></script>
+    <script src="./rivets.js.download"></script>
+    <script src="./rivets-extended-mbr.js.download"></script>
+
+    <script src="./build.js.download"></script><input type="text" style="display: none;"><div class="note-popover note-air-layout"><div class="note-button-popover popover in bottom" style="display: none;">
+<div class="arrow"></div>
+<div class="popover-content">
+<div class="btn-group">
+<button type="button" class="btn btn-default btn-sm" tabindex="-1" data-event="changeImage" data-media="image"><i class="mbr-icon-image"></i></button>
+<button type="button" class="btn btn-default btn-sm" tabindex="-1" data-event="changeVideo" data-media="video"><i class="mbr-icon-youtube"></i></button>
+<button data-toggle="tooltip" type="button" class="btn btn-default btn-sm" title="Insert icon" data-event="changeIconfont" data-hide="true" tabindex="-1" data-media="iconFont"><i class="mbr-icon-sun"></i></button></div>
+</div>
+</div></div>
+
+
+<div class="scrollToTop_wraper"><div id="scrollToTop" class="scrollToTop mbr-arrow-up" style="opacity: -0.5; display: none;"><a style="text-align: center;"><i></i></a></div></div></body></html>
